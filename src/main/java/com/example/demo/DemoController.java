@@ -23,7 +23,7 @@ public class DemoController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public @ResponseBody String getElasticString() {
-		return "Welcome to Elastic Beanstalk";
+		return "Welcome to AWS Elastic Beanstalk";
 
 	}
 }
