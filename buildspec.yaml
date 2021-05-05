@@ -8,6 +8,6 @@ phases:
 
 artifacts:
   files:
-    - target/springWebProj-0.0.1-SNAPSHOT
+    - target/springWebProj-0.0.1-SNAPSHOT.jar
    
       
