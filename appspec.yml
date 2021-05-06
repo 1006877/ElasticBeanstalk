@@ -1,14 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: /
+    destination: /webapp/myApp
 hooks:
-  BeforeInstall:
-    - location: deploy/before_install
-      timeout: 300
-      runas: root
   AfterInstall:
-    - location: deploy/restart_server
+    - location: deploy/start_server
       timeout: 300
       runas: root
