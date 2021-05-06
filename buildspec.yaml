@@ -9,5 +9,6 @@ phases:
 artifacts:
   files:
     - target/springWebProj-0.0.1-SNAPSHOT.jar
+    - appspec.yml
    
       
