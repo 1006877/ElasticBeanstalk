@@ -6,4 +6,5 @@ files:
 hooks:
   AfterInstall:
     - location: deploy/start_server
+      timeout: 150
       runas: root
