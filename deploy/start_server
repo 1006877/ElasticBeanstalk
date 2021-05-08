@@ -4,6 +4,7 @@ ls
 cd /webapp/myApp
 pwd
 ls
-chmod +rwx /target/springWebProj-0.0.1-SNAPSHOT.jar
-java -jar /target/springWebProj-0.0.1-SNAPSHOT.jar
+cd /target
+chmod +rwx springWebProj-0.0.1-SNAPSHOT.jar
+java -jar springWebProj-0.0.1-SNAPSHOT.jar
 
