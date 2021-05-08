@@ -1,6 +1,5 @@
 #!/bin/sh
 
-ls
 cd /webapp/myApp
 pwd
 ls
