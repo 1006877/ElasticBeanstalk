@@ -4,5 +4,5 @@ cd /webapp/myApp/target
 pwd
 ls
 chmod +rwx springWebProj-0.0.1-SNAPSHOT.jar
-java -Dserver.port=8888 -jar springWebProj-0.0.1-SNAPSHOT.jar
+java -Dserver.port=8080 -jar springWebProj-0.0.1-SNAPSHOT.jar
 
