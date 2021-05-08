@@ -4,5 +4,6 @@ cd /webapp/myApp/target
 pwd
 ls
 chmod +rwx springWebProj-0.0.1-SNAPSHOT.jar
+kill $(ps aux | grep 'springWebProj-0.0.1-SNAPSHOT.jar' | grep -v grep | awk '{print $2}')
 java -Dserver.port=8080 -jar springWebProj-0.0.1-SNAPSHOT.jar
 
